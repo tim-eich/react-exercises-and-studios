@@ -40,9 +40,8 @@
 .similarComponents {
   display:flex;
   justify-content:space-between;
-  border-radius: 8px;
 }
 
-img {
+.similarComponents img {
   width: 30%;
 }

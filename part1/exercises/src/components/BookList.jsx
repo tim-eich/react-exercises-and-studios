@@ -6,10 +6,10 @@ export default function BookList() {
 
    return (
       <div>
-         <h3>{pageTitle}</h3>
-         <img src={book1} alt="The Hitchhiker's Guide to the Galaxy" />
-         <img src={book2} alt="John Dies at the End" />
-         <img src={book3} alt="Cryptonomicon" />
+         <h3>{ pageTitle }</h3>
+         <img src={ book1 } alt="The Hitchhiker's Guide to the Galaxy" />
+         <img src={ book2 } alt="John Dies at the End" />
+         <img src={ book3 } alt="Cryptonomicon" />
       </div>      
    );
 }
