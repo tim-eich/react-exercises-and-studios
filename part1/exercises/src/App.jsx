@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
     <ChoresList />
-      <div className="similarComponents">
+      <div className='similarComponents'>
         <MovieList />
         <BookList />
         <HobbyLinks />
