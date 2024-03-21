@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+img {
+  width: 500px;
+  min-height: 375px;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +44,8 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.introduction {
+  text-align: left;
 }
