@@ -21,10 +21,7 @@ export default function StatusChange () {
             </label>
             <input type="submit" />
          </form>
-
-         <p>My Recipe Notes aren't here!</p>
-
-         <p>I have not tried this recipe!</p>
+         {recipeStatus ? notes : <p>My Recipe Notes aren't here!</p>}
       </div>
    );
 }
