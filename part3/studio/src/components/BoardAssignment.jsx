@@ -3,16 +3,16 @@ import { useState } from 'react';
 export default function BoardAssignment () {
    const boards = [
       {
-         label: null,
-         value: null
+         label: 'Cakes',
+         value: 'cakes'
       },
       {
-         label: null,
-         value: null
+         label: 'Desserts',
+         value: 'desserts'
       },
       {
-         label: null,
-         value: null
+         label: 'Baked Goods',
+         value: 'bakedGoods'
       }
    ];
 

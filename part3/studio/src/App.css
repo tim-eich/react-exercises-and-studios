@@ -49,3 +49,7 @@
 .imageUpdates {
   object-fit: contain;
 }
+
+.recipeIngredients ul {
+  text-align: left;
+}
